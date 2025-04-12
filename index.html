@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>La Storia dei Wafer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fdf2e9;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+    header {
+      background-color: #ffb347;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      color: #4d2600;
+    }
+    section {
+      margin-top: 30px;
+    }
+    h2 {
+      color: #d2691e;
+    }
+    .box {
+      background-color: #fff3e0;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-top: 15px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #ffa07a;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #ff7f50;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>La Storia dei Wafer</h1>
+  </header>
+
+  <section>
+    <div class="box">
+      <h2>Josef Manner e l'invenzione dei wafer moderni</h2>
+      <p>
+        Il nome più strettamente associato all’invenzione dei wafer moderni è <strong>Josef Manner</strong>,
+        un imprenditore austriaco che nel <strong>1890</strong> fondò a Vienna l’azienda <em>Josef Manner & Comp AG</em>.
+      </p>
+      <p>
+        Nel <strong>1898</strong>, Manner introdusse il celebre <em>“Neapolitaner Schnitte No. 239”</em>,
+        un wafer composto da cinque strati di cialda e quattro di crema alla nocciola.
+        Questo prodotto divenne un’icona della pasticceria austriaca e contribuì significativamente
+        alla diffusione dei wafer farciti su scala industriale.
+      </p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Josef_Manner.jpg" alt="Josef Manner">
+    </div>
+  </section>
+
+  <section>
+    <div class="box">
+      <h2>Il significato del nome "Neapolitaner"</h2>
+      <p>
+        Il termine <strong>“Neapolitaner”</strong> fu scelto in riferimento alle nocciole provenienti dalla regione di Napoli,
+        utilizzate nella crema, sebbene non vi fosse un legame diretto con la città stessa.
+      </p>
+      <img src="https://www.manner.com/media/produkte/produktbilder/manner-original-neapolitaner-wafers-75g.png" alt="Wafer Neapolitaner Manner">
+    </div>
+  </section>
+
+  <section>
+    <div class="box">
+      <h2>La famiglia di Josef Manner</h2>
+      <p>
+        Josef Manner ebbe una figlia di nome <strong>Amalia Manner</strong>, nata il <strong>22 aprile 1898</strong> a Vienna.
+        Era la primogenita di Josef Manner e di sua moglie <em>Amalia “Mali” Reinhart</em>.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="box" style="text-align: center;">
+      <h2>CLICCAMI</h2>
+      <button onclick="chiedi()">Rispondi</button>
+    </div>
+  </section>
+
+  <script>
+    function chiedi() {
+      const risposta = confirm("Ti scoperesti la figlia di chi ha inventato i wafer?");
+      if (risposta) {
+        alert("Grande! Anche a Josef Manner sarebbe piaciuta!");
+      } else {
+        alert("Peccato! Forse non hai ancora trovato ancora quella giusta.");
+      }
+    }
+  </script>
+
+</body>
+</html>
